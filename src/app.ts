@@ -25,6 +25,8 @@ import 'rxjs/add/operator/switchMap';
                     <th>Make</th>
                     <th>Year</th>
                     <th>Colour</th>
+                    <th>Variant</th>
+                    <th>Badge</th>
                 </tr>
             </thead>
             <tbody>
@@ -33,6 +35,8 @@ import 'rxjs/add/operator/switchMap';
                     <td>{{item['make']}}</td>
                     <td>{{item['year']}}</td>
                     <td>{{item['colour']}}</td>
+                    <td>{{item['variant']}}</td>
+                    <td>{{item['badge']}}</td>
                 </tr>
             </tbody>
         </table>
